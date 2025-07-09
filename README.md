@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
 
-## Project info
+# Flavi Skill Sync-Up – Bridging the Gap Between Skills and Job Roles
 
-**URL**: https://lovable.dev/projects/21ab9383-aef5-4c1b-8d44-2d10d22083ec
+🔗 **Live Preview:** [https://preview--flavi-skill-sync-up.lovable.app/](https://preview--flavi-skill-sync-up.lovable.app/)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📘 Project Overview
 
-**Use Lovable**
+**Flavi Skill Sync-Up** is a web application that addresses the **mismatch between operator skills and job roles**, a major factor affecting productivity and quality in industrial environments. This platform helps map employee skill levels to job role requirements using interactive dashboards and modern UI/UX, enabling more efficient task allocation and workforce development.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/21ab9383-aef5-4c1b-8d44-2d10d22083ec) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧑‍💻 Tech Stack Used
 
-**Use your preferred IDE**
+| Layer         | Technology         |
+|--------------|--------------------|
+| **Frontend** | React (with Vite)  |
+|              | TypeScript         |
+|              | Tailwind CSS       |
+|              | ShadCN UI Library  |
+| **Build Tool** | Vite              |
+| **Styling**  | Tailwind CSS       |
+| **Components** | Shadcn/ui         |
+| **Icons**    | Lucide React       |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ☁️ Platform & Tools
 
-Follow these steps:
+| Tool / Platform    | Purpose                            |
+|--------------------|------------------------------------|
+| **Lovable**        | No-code/low-code development & hosting platform |
+| **GitHub**         | Version control                    |
+| **Node.js & npm**  | Local development environment      |
+| **Vercel / Netlify** *(optional)* | Custom deployment & domain integration |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Getting Started (Local Setup)
 
-# Step 3: Install the necessary dependencies.
-npm i
+To run this project locally:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Prerequisites:
+- [Node.js](https://nodejs.org/) & [npm](https://www.npmjs.com/) installed
+- Git installed
+
+### Steps:
+```bash
+# 1. Clone the repository
+git clone <YOUR_GIT_REPOSITORY_URL>
+
+# 2. Navigate to the project folder
+cd <YOUR_PROJECT_FOLDER>
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚀 Deployment
 
-**Use GitHub Codespaces**
+You can deploy this project using:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Lovable** (already used for current deployment)
+- Or manually using:
+  - [Vercel](https://vercel.com/)
+  - [Netlify](https://www.netlify.com/)
+  - [Render](https://render.com/)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🌐 Custom Domain
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To connect a custom domain:
 
-## How can I deploy this project?
+1. Go to your hosting platform's domain section.
+2. Add your domain and verify it.
+3. Point DNS to your hosting provider (e.g., Vercel, Netlify).
+4. Done!
 
-Simply open [Lovable](https://lovable.dev/projects/21ab9383-aef5-4c1b-8d44-2d10d22083ec) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📌 Key Features
 
-Yes, you can!
+- Skill vs Role Mapping Dashboard
+- Responsive and modern UI using Tailwind
+- Built using TypeScript for safety and scalability
+- Modular design with reusable components (ShadCN UI)
+- Instant preview & hot reload with Vite
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
